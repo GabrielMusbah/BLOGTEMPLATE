@@ -10,3 +10,8 @@ Criar as pastas:
 
 require 'config/config.php';
 
+$smarty->assign('titulo', 'Home');
+
+$smarty->assign('active', 'home');
+
+$smarty->display('home.tpl');
